@@ -14,7 +14,7 @@
   --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
   --black: #282623;
-  --grey: #bababa;
+  --grey: #8b8c89;
   --off-white: #faf8f7;
   --just-white: #ffffff;
 }
@@ -151,7 +151,7 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
+  color: #495057;
 }
 
 .main-currency-table {
@@ -176,22 +176,41 @@ main {
 
 
 .main-currency-table .currency-table--title {
-  margin-bottom: 15px;
-  font-size: 1.8rem;
+  /* margin-bottom: 15px; */
+  font-size: 1.6rem;
   font-weight: bold;
   line-height: 2.3rem;
-  color: var(--bitcoin-orange);
+  background-color: var(--bitcoin-orange);
+  color: white;
+  border-radius:8px;
+  width: 50%;
+  margin: 0 auto 15px;
+  /* margin-left: 10px; */
+/*  
+  width: 120px;
+  height: 31px;
+  padding: 6px;
+ 
+ margin-left: 10px;
+  font-size: 1.2rem;
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+  color: var(--just-white);
 
-  margin-left: 10px;
+  font-weight: bold; */
 }
 
 .main-comisions-table .comisions-table--title {
-    margin-bottom: 15px;
-    font-size: 1.8rem;
+    /* margin-bottom: 15px; */
+    font-size: 1.6rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--secondary-blue);  
-    margin-left: 10px;
+    background-color: var(--secondary-blue);  
+    color: white;
+    border-radius:8px;
+  width: 50%;
+  margin: 0 auto 15px;
+    /* margin-left: 10px; */
   }
 .currency-table--container {
   width: 90%;
@@ -214,6 +233,7 @@ main {
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--just-white);
+ 
 }
 
 .currency-table--container .table__top-left {
@@ -273,14 +293,14 @@ main {
   height: 100%;
 }
 
-.currency-table--container td {
+/* .currency-table--container td {
   width: 50%;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--just-white);
-}
+} */
 
 .currency-table--container .table__top-left {
   border-radius: 15px 0 0 0;
@@ -485,7 +505,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: 30vh;
-  background-image: url("./assets/imgs/bitcoinbaby2x.jpg");
+  background-image: url("./assets/imgs/bitcoinbaby2x.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -654,5 +674,10 @@ footer .left-footer li {
 .left-footer a {
   text-decoration: none;
   color: white;
+}
+
+.right-footer img{
+  width: 80px;
+  height: 80px;
 }
 
